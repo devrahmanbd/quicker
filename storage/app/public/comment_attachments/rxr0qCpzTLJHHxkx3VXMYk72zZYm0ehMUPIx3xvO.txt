@@ -1,0 +1,34 @@
+## v1.0.2 - 2024-06-29
+
+### Added
+- New feature: System notifications for project, task, workspace, and meeting assignments.
+- New feature: SMS notifications for project, task, workspace, and meeting assignments, including SMS gateway settings to configure preferred SMS gateways.
+- Customizable email templates for:
+  - Account creation
+  - Email verification
+  - Forgot password
+  - Project/task/meeting/workspace assignments
+- Languages list page with options to edit and delete languages.
+- Proper gap between filters in mobile view.
+- Missing translations.
+
+### Changed
+- Global search transformed into a suggestion-based search encompassing:
+  - Projects
+  - Tasks
+  - Meetings
+  - Workspaces
+  - Todos
+  - Notes
+  - Users
+  - Clients
+- Status and email verification now separated during user/client creation.
+- Date format functionality enhanced system-wide to ensure expected behavior.
+- Version information moved to the footer.
+- Allowed 0 decimals in currency format.
+
+### Fixed
+- Resolved issues with upcoming birthdays, work anniversaries, and members on leave not displaying as expected.
+- Optimized the project information page and task information page by using the tab view.
+- Implemented several bug fixes and UI improvements.
+
