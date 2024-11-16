@@ -1178,7 +1178,7 @@ if (!function_exists('get_message')) {
         }
         if ($company_title === null) {
             $general_settings = get_settings('general_settings');
-            $company_title = $general_settings['company_title'] ?? 'Quicker-SaaS';
+            $company_title = $general_settings['company_title'] ?? 'Quicker';
         }
         $siteUrl = request()->getSchemeAndHttpHost() . '/master-panel';
         $fetched_data = Template::where('type', $type)
