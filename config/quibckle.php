@@ -1,7 +1,5 @@
 <?php
 
-/** custom taskhub config */
-
 return [
 
     /*
